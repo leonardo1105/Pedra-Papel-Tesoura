@@ -54,24 +54,3 @@ while 's' in n:
         print('\033[97mDeu empate, nós dois colocamos {}\033[m'.format(n))
     n = str(input('Você quer continuar?[Sim/Não]: ')).lower()[0]
 print('Obrigado por jogar comigo!')
-'''#algoritimo para tesoura
-if 'Tesoura' in r and 'Pedra' in n:
-    print('\033[91mVocê perdeu!Eu coloquei {} e você {}\033[m'.format(n,r))
-elif 'Tesoura' in r and 'Papel' in n:
-    print('\033[92mVocê ganhou.Eu coloquei {} e você {}.\033[m'.format(n,r))
-elif 'Tesoura' in r and 'Tesoura' in n:
-    print('\033[97mDeu empate, nós dois colocamos {}\033[m'.format(n))
-#algoritimo para papel
-if 'Papel' in r and 'Tesoura' in n:
-    print('\033[91mVocê perdeu!Eu coloquei {} e você {}\033[m'.format(n,r))
-elif 'Papel' in r and 'Pedra' in n:
-    print('\033[92mVocê ganhou!Eu coloquei {} e você {}\033[m'.format(n,r))
-elif 'Papel' in r and 'Papel' in n:
-    print('\033[97mDeu empate, nós dois colocamos {}\033[m'.format(n))
-#algoritimo para pedra
-if 'Pedra' in r and 'Tesoura' in n:
-    print('\033[92mVocê ganhou!Eu coloquei {} e você {}\033[m'.format(n,r))
-elif 'Pedra' in r and 'Papel' in n:
-    print('\033[91mVocê perdeu!Eu coloquei {} e você {}\033[m'.format(n,r))
-elif 'Pedra' in r and 'Pedra' in n:
-    print('\033[97mDeu empate, nós dois colocamos {}\033[m'.format(n))'''
